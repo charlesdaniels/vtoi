@@ -9,7 +9,7 @@ test/test_vtoi: src/vtoi.o test/test_vtoi.c
 
 .PHONY: run_tests
 run_tests: test/test_vtoi
-	cd test 2>&1 && ./test_vtoi | tee log.txt
+	cd test 2>&1 && ./test_vtoi
 
 clean:
 	rm -f src/*.o
