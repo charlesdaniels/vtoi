@@ -1,5 +1,7 @@
 # vtoi
 
+[![Build Status](https://travis-ci.org/charlesdaniels/vtoi.svg?branch=master)](https://travis-ci.org/charlesdaniels/vtoi)
+
 Vtoi is a C library for converting verilog-esque integers into unsigned long
 integers. This is useful in cases where the user may wish to input numbers in
 one of several radices. The specific use case for which this library was

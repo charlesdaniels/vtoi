@@ -16,4 +16,4 @@ clean:
 	rm -f src/*.gch
 	rm -f test/*.o
 	rm -f test/*.gch
-	rm test/test_vtoi
+	rm -f test/test_vtoi
